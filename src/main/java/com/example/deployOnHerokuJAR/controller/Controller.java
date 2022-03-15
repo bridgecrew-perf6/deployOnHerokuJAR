@@ -18,4 +18,11 @@ public class Controller {
         return "trial page";
     }
 
+    @GetMapping("/trial/123")
+    public String thirdLink()
+    {
+        return "trial page 123";
+    }
+
+
 }
