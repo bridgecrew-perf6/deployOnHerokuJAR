@@ -7,8 +7,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class Controller {
 
     @GetMapping("/")
-    public String func()
+    public String welcome()
     {
         return "hiyaaa";
     }
+
+    @GetMapping("/trial")
+    public String secondLink()
+    {
+        return "trial page";
+    }
+
 }
